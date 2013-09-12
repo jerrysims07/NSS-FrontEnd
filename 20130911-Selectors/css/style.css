@@ -1,0 +1,66 @@
+/*this is a single line comment */
+/*  this
+    is
+    a
+    multi-line
+    comment
+    */
+
+/* selecting by ID */
+#div1
+{
+  color:rgba(255, 0, 255, .25);
+}
+
+/* selecting by class */
+.divs
+{
+  background-color:yellow;
+}
+
+/*selecting by tag */
+p
+{
+  color:green;
+}
+
+a
+{
+  background-color:red;
+}
+
+/*selecting tag with specific value and attribute*/
+a[href="http://google.com"]
+{
+  background-color:yellow;
+}
+
+/*selecting tag with attribute whose value ENDS with "cnn.com"*/
+a[href$="cnn.com"]
+{
+  background-color:purple;
+}
+
+/*selecting using wild card in attribute value*/
+a[href*="yaho"]
+{
+  background-color:green;
+}
+
+/*selecting direct child of element*/
+ul > li
+{
+  font-size: 25px;
+}
+
+/*select the nth li under a ul element*/
+ul > li:nth-child(3) > span:nth-child(2)
+{
+  font-size:35px;
+}
+
+/*use hover selection*/
+a:hover
+{
+  background-color:white;
+}

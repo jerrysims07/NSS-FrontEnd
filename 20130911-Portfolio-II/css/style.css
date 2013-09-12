@@ -1,0 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Cinzel);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+
+#logoimg
+{
+  float: left;
+  width: 101px;
+  border: 1px dashed red;
+}
+
+#logotxt
+{
+  float: left;
+  width: 200px;
+  font-family: "Cinzel", Serif;
+  font-size: 35px;
+  padding-top:20px;
+  padding-left:20px;
+}
+
+.clear
+{
+  clear:both;
+}
+
+/*select the h1 which is a direct child of the header*/
+header > div>h1
+{
+  font-family:"Cinzel", serif;
+  font-size: 35px;
+}
+
+body
+{
+  font-family: "Josefin Sans",sans-serif;
+  font-size: 20px;
+}
+
+h2
+{
+  font-size:30px;
+}
+
+ul
+{
+  margin-left:10px;
+  list-style: inside circle;
+}
+
+/*Give padding to the paragraph sections*/
+section p
+{
+  padding:10px;
+  line-height:24px;
+}
+
+/*make every other paragraph italics*/
+p:nth-of-type(2n)
+{
+  font-style:italic;
+}
+
+a:hover
+{
+  background-color:blue;
+  color:white;
+}
