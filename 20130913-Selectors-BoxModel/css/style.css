@@ -1,0 +1,55 @@
+*
+{
+  border:1px solid rgba(127, 127, 127, .25);
+}
+
+body
+{
+  background: url("../images/tile.jpg");
+}
+
+body > div:first-child
+{
+  width:960px;
+  margin:auto;
+}
+
+body > div > section:nth-child(1)
+{
+  float:left;
+  width:600px;
+  border-right: 2px dashed red;
+}
+
+body > div > section:nth-child(2)
+{
+  float:left;
+  width:352px;
+  border-left:2px dashed blue;
+}
+
+h1
+{
+  font-weight:bold;
+  font-size:25px;
+}
+
+/*.leftPara*/
+body>div>section:first-child p
+{
+  float:left;
+  width:288px;
+  margin-left:5px;
+  margin-right:5px;
+}
+
+body > div >section:nth-child(2)>p:first-of-type
+{
+  width:320px;
+  margin:0px 20px 0px 20px;
+}
+
+.clear
+{
+  clear:both;
+}
