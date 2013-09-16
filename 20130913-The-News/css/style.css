@@ -3,10 +3,11 @@
 @import url(http://fonts.googleapis.com/css?family=Kelly+Slab);
 
 /*make debug borders around everything*/
-
-/*{
+/**
+{
   border:1px solid gray;
-} */
+}
+*/
 html
 {
   background-image:url(../images/grey.png);
@@ -186,8 +187,11 @@ h4
 {
   float:left;
   margin:10px;
+}
 
-
+.story
+{
+  color:white;
 }
 
 
