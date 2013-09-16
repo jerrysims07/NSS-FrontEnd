@@ -145,6 +145,12 @@ h4
   /*border:1px solid black;*/
 }
 
+article>a
+{
+  text-decoration:none;
+  color:white;
+}
+
 /*position, size, and style tier 1 article*/
 #leadStory
 {
@@ -191,6 +197,7 @@ h4
   width:287px;
   height:390px;
   float:left;
+  text-align:left;
 }
 
 /*position, size, and style tier 3 article*/
