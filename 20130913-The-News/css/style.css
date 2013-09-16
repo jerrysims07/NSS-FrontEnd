@@ -3,10 +3,10 @@
 @import url(http://fonts.googleapis.com/css?family=Kelly+Slab);
 
 /*make debug borders around everything*/
-*
-{
+
+/*{
   border:1px solid gray;
-}
+} */
 html
 {
   background-image:url(../images/grey.png);
@@ -21,6 +21,7 @@ nav
  box-shadow: 0px 5px 50px #5E5E5E;
  position:fixed;
  top:0px;
+ z-index: 100
 }
 
 /*nav a:hover
@@ -63,14 +64,9 @@ nav a:hover
 
 #social
 {
-  /*display:inline;*/
   float:right;
-  position:relative;
-  bottom:20px;
-/*
-  position: fixed;
-  top: 5px;
-  right: 20px;*/
+  position: relative;
+  margin-top: -7px;
 }
 
 
@@ -98,21 +94,29 @@ h1
 {
   font-size:40px;
   font-weight:bolder;
+  color:#32cd32;
+  font-family: 'Kelly Slab', cursive;
 }
 h2
 {
   font-size:22px;
   font-weight:bold;
+  color:#32cd32;
+  font-family: 'Kelly Slab', cursive;
 }
 h3
 {
   font-size:20px;
   font-weight:bold;
+  color:#32cd32;
+  font-family: 'Kelly Slab', cursive;
 }
 h4
 {
   font-size:18px;
   font-weight:bold;
+  color:#32cd32;
+  font-family: 'Kelly Slab', cursive;
 }
 
 
@@ -145,18 +149,12 @@ h4
   /*border:1px solid black;*/
 }
 
-article>a
-{
-  text-decoration:none;
-  color:white;
-}
-
 /*position, size, and style tier 1 article*/
 #leadStory
 {
   width:576px;
   height:390px;
-}
+ }
 
 #leadHeadline
 {
@@ -186,8 +184,10 @@ article>a
 */
 .leadImage
 {
-  float:right;
+  float:left;
   margin:10px;
+
+
 }
 
 
@@ -197,7 +197,6 @@ article>a
   width:287px;
   height:390px;
   float:left;
-  text-align:left;
 }
 
 /*position, size, and style tier 3 article*/
@@ -233,3 +232,48 @@ footer
      width: 962px;
      margin: 0 auto;
 }
+
+
+.article
+{
+  width: 600px;
+  float: left;
+}
+
+article p
+{
+  text-align:left;
+}
+
+.article > .article_section > .article_detail
+{
+  color: #32cd32;
+  margin:100px 0px;
+  font-family: 'Kelly Slab', cursive;
+}
+
+.article_image > img
+{
+  width: 340px;
+  height: auto;
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+}
+
+.article_image>img
+{
+  max-width:300px;
+}
+
+.story {
+  color: antiquewhite;
+  text-align: left;
+}
+
+article > a
+{
+  text-decoration: none;
+  color:white;
+}
+
