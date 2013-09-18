@@ -1,0 +1,19 @@
+div#content
+{
+  h1
+  {
+    font-size:$normalFontSize + 8px;
+    color:$teslaRed
+  }
+
+  h2
+  {
+    font-size:$normalFontSize + 6px;
+    color:$teslaRed;
+  }
+
+  p
+  {
+    color:$readingColor;
+  }
+}

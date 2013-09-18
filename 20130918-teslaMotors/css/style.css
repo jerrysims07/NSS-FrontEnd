@@ -1,0 +1,42 @@
+@import url(http://fonts.googleapis.com/css?family=Gudea);
+header {
+  border: 2px dashed #c60b0b; }
+  header #logo {
+    width: 78px;
+    height: 105px;
+    background: url("../images/tesla_flag.png");
+    float: left; }
+  header h1 {
+    margin-left: 100px;
+    margin-top: 35px;
+    font-family: "Gudea", sans-serif; }
+
+nav ul {
+  list-style: none;
+  padding: 0px; }
+  nav ul li {
+    display: inline-block;
+    padding-right: 50px; }
+
+div#content h1 {
+  font-size: 20px;
+  color: #c60b0b; }
+div#content h2 {
+  font-size: 18px;
+  color: #c60b0b; }
+div#content p {
+  color: black; }
+
+.clear {
+  clear: both; }
+
+#main {
+  width: 960px;
+  margin: 0px auto; }
+
+a {
+  text-decoration: none;
+  color: #c60b0b; }
+  a:hover {
+    text-decoration: underline;
+    color: #b12020; }
