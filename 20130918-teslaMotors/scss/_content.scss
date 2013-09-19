@@ -1,9 +1,9 @@
-div#content
-{
   h1
   {
-    font-size:$normalFontSize + 8px;
-    color:$teslaRed
+    @include fontFunction($teslaRed, $basicFont, $normalFontSize + 8px, 20px, 5px);
+
+    // font-size:$normalFontSize + 8px;
+    // color:$teslaRed;
   }
 
   h2
@@ -12,8 +12,8 @@ div#content
     color:$teslaRed;
   }
 
-  p
+  section>p
   {
-    color:$readingColor;
+    @include fontFunction(red, $basicFont, 14px, 20px, 3px);
+    @include boxFunction(5px, 10px, 2px dashed green,NULL,NULL, yellow)
   }
-}

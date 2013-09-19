@@ -18,14 +18,29 @@ nav ul {
     display: inline-block;
     padding-right: 50px; }
 
-div#content h1 {
+h1 {
+  color: #c60b0b;
+  font-family: "Gudea", sans-serif;
   font-size: 20px;
-  color: #c60b0b; }
-div#content h2 {
+  line-height: 20px;
+  letter-spacing: 5px; }
+
+h2 {
   font-size: 18px;
   color: #c60b0b; }
-div#content p {
-  color: black; }
+
+section > p {
+  color: red;
+  font-family: "Gudea", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  margin: 5px;
+  padding: 10px;
+  border: 2px dashed green;
+  border-radius: NULL;
+  background-color: yellow;
+  box-shadow: NULL; }
 
 .clear {
   clear: both; }
