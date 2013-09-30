@@ -1,0 +1,19 @@
+@mixin fontFunction($color, $fontFamily, $fontSize, $lineHeight, $letterSpacing)
+{
+  color:$color;
+  font-family:$fontFamily;
+  font-size:$fontSize;
+  line-height:$lineHeight;
+  letter-spacing: $letterSpacing;
+}
+
+@mixin boxFunction($margin, $padding, $border,  $boxShadow, $borderRadius:10px, $backgroundColor:red)
+{
+  margin: $margin;
+  padding: $padding;
+  border: $border;
+  border-radius:$borderRadius;
+  background-color: $backgroundColor;
+  box-shadow: $boxShadow;
+
+}
