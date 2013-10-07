@@ -1,0 +1,23 @@
+!!! 5
+%html{lang: 'en'}
+  %head
+    %meta{charset: 'utf-8'}
+    %title Basic JQuery 3
+    %link{rel: 'stylesheet', href: 'css/normalize.css'}
+    %link{rel: 'stylesheet', href: 'css/qunit-theme-gabe.css'}
+    %link{rel: 'stylesheet', href: 'css/style.css'}
+  %body
+
+    %input#num1{type: 'text'}
+    %span.symbol +
+    %input#num2{type: 'text'}
+    %span.symbol =
+    %span#result
+    %input#addButton{type: 'button', value: 'Add'}
+
+
+    %script{src: 'js/jquery-1.10.2.min.js'}
+    %script{src: 'js/underscore-min.js'}
+    %script{src: 'js/qunit-1.12.0.js'}
+    %script{src: 'js/main.js'}
+    %script{src: 'js/testing.js'}

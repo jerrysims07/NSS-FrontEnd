@@ -1,0 +1,76 @@
+#imageArea
+{
+  width: 250px;
+  height: 150px;
+  display: inline-block;
+}
+
+#balanceDisplay
+{
+  background-color: #999999;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+body
+{
+  background-color: #aaaaaa;
+}
+
+#activitySection
+{
+  float:left;
+}
+
+#reportingSection
+{
+  float:right;
+}
+
+#wrap
+{
+  margin:auto;
+  width: 960px;
+}
+
+h1
+{
+  text-align:center;
+}
+
+img
+{
+  margin:auto;
+  text-align: center;
+}
+
+.clear
+{
+  clear: both;
+}
+
+#depositList
+{
+  float:left;
+}
+
+#withdrawList
+{
+  float:right;
+}
+
+#reportingSection > h2
+{
+  text-align: center;
+}
+
+#balanceDisplay
+{
+  margin-bottom:20px;
+}
+
+.transaction
+{
+  color:white;
+  font-size:30px;
+}

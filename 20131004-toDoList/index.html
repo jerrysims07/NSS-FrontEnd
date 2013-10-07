@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Template</title>
+    <link href='css/normalize.css' rel='stylesheet'>
+    <link href='css/qunit-theme-gabe.css' rel='stylesheet'>
+    <link href='css/style.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div id='wrap'>
+      <h1>To-Do List</h1>
+      <section id='addNewTasks'>
+        <h2>Add Task</h2>
+        <span class='addTaskLabels'>Due Date:</span>
+        <input id='dueDateInput' type='text'>
+        <div class='clear'></div>
+        <span class='addTaskLabels'>Task Name:</span>
+        <input id='taskNameInput' type='text'>
+        <div class='clear'></div>
+        <span class='addTaskLabels'>Color:</span>
+        <input id='colorInput' type='text'>
+        <div class='clear'></div>
+        <input id='addTaskButton' type='button' value='Add Task'>
+      </section>
+      <section id='taskList'>
+        <h2>Task List</h2>
+        <table>
+          <th id='dueDateList'>Due Date</th>
+          <th id='taskNameList'>Task Name</th>
+          <th id='colorList'>Color</th>
+          <th id='doneList'>Done?</th>
+          <th id='removeList'>Remove</th>
+          <th id='moveList'>Move Up/Down</th>
+        </table>
+      </section>
+    </div>
+    <script src='js/jquery-1.10.2.min.js'></script>
+    <script src='js/underscore-min.js'></script>
+    <script src='js/qunit-1.12.0.js'></script>
+    <script src='js/main.js'></script>
+    <script src='js/testing.js'></script>
+  </body>
+</html>

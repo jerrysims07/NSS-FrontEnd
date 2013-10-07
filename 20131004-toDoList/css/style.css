@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Walter+Turncoat);
+* {
+  font-family: 'Walter Turncoat', cursive; }
+
+h1 {
+  font-family: 'Walter Turncoat', cursive;
+  text-align: center; }
+
+.clear {
+  clear: both; }
+
+.addTaskLabels {
+  width: 100px;
+  display: inline-block;
+  text-align: right; }
+
+#addNewTasks {
+  padding-right: 30px;
+  border-right: 2px solid #aaaaaa;
+  border-radius: 15px;
+  float: left; }
+
+#taskList {
+  padding-left: 30px;
+  border-left: 2px solid #aaaaaa;
+  border-radius: 15px;
+  height: 400px; }
+
+h2 {
+  font-family: 'Walter Turncoat', cursive;
+  text-align: center; }
+
+#wrap {
+  width: 950px;
+  margin: auto; }
+
+#taskList {
+  float: right; }
+
+th {
+  margin-bottom: 5px;
+  padding-right: 10px;
+  text-decoration: underline;
+  padding-bottom: 10px; }
+
+.colorDivClass {
+  width: 10px;
+  height: 10px; }
+
+tr {
+  border-bottom: 1px solid #aaaaaa; }
+
+tr:first-child {
+  border: none; }
+
+tr:first-child {
+  text-align: left; }
+
+#taskNameList {
+  width: 261px; }
+
+#dueDateList {
+  width: 84px; }
+
+#colorList {
+  width: 56px; }
+
+#doneList {
+  width: 56px; }
+
+#removeList {
+  width: 104px; }
+
+#moveList {
+  width: 121px; }
+
+.colorDivClass {
+  margin: auto; }
+
+.checkboxes {
+  margin: auto; }
+
+.checkedBox {
+  color: #aaaaaa;
+  background-color: #cccccc;
+  text-decoration: line-through; }

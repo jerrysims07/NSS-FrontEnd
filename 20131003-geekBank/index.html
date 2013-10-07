@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <title>Template</title>
+    <link href='css/normalize.css' rel='stylesheet'>
+    <link href='css/qunit-theme-gabe.css' rel='stylesheet'>
+    <link href='css/style.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div id='wrap'>
+      <h1>The First Bank of Mandalore</h1>
+      <img id='logo'>
+      <div id='logoInputArea'>
+        <input id='imageSourceName' type='text'>
+        <input id='loadImageButton' type='button' value='Set Logo'>
+      </div>
+      <div class='clear'>
+        <section id='activitySection'>
+          <balanceDisplayArea>
+            <h2>Balance</h2>
+            <span>$</span>
+            <input id='balanceDisplay' readonly type='text'>
+          </balanceDisplayArea>
+          <div id='startingBalanceArea'>
+            <input id='balanceEntry' type='text'>
+            <input id='setBalanceButton' type='button' value='Set Balance'>
+          </div>
+          <div class='clear'></div>
+          <input id='transactionAmount' type='text'>
+          <input id='depositButton' type='button' value='Deposit'>
+          <input id='withdrawButton' type='button' value='Withdraw'>
+        </section>
+      </div>
+      <section id='reportingSection'>
+        <h2>
+          Transaction List
+        </h2>
+        <div class='clear'></div>
+        <ul id='depositList'>Deposits</ul>
+        <ul id='withdrawList'>Withdraws</ul>
+      </section>
+    </div>
+    <script src='js/jquery-1.10.2.min.js'></script>
+    <script src='js/underscore-min.js'></script>
+    <script src='js/qunit-1.12.0.js'></script>
+    <script src='js/main.js'></script>
+    <script src='js/testing.js'></script>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+!!! 5
+%html{lang: 'en'}
+  %head
+    %meta{charset: 'utf-8'}
+    %title Template
+    %link{rel: 'stylesheet', href: 'css/normalize.css'}
+    %link{rel: 'stylesheet', href: 'css/qunit-theme-gabe.css'}
+    %link{rel: 'stylesheet', href: 'css/style.css'}
+  %body
+    %input#balance.amount{type: 'text', readonly: true, value: '$1000.00'}
+    %span Balance
+    .clear
+    %input#amount.amount{type: 'text'}
+    %input#depositButton{type: 'button', value: 'Deposit'}
+    %input#withdrawButton{type: 'button', value: 'Withdraw'}
+
+    %script{src: 'js/jquery-1.10.2.min.js'}
+    %script{src: 'js/underscore-min.js'}
+    %script{src: 'js/qunit-1.12.0.js'}
+    %script{src: 'js/main.js'}
+    %script{src: 'js/testing.js'}

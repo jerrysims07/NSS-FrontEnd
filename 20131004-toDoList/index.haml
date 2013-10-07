@@ -1,0 +1,40 @@
+!!! 5
+%html{lang: 'en'}
+  %head
+    %meta{charset: 'utf-8'}
+    %title Template
+    %link{rel: 'stylesheet', href: 'css/normalize.css'}
+    %link{rel: 'stylesheet', href: 'css/qunit-theme-gabe.css'}
+    %link{rel: 'stylesheet', href: 'css/style.css'}
+  %body
+    #wrap
+      %h1 To-Do List
+
+      %section#addNewTasks
+        %h2 Add Task
+        %span.addTaskLabels Due Date:
+        %input#dueDateInput{type: 'text'}
+        .clear
+        %span.addTaskLabels Task Name:
+        %input#taskNameInput{type: 'text'}
+        .clear
+        %span.addTaskLabels Color:
+        %input#colorInput{type: 'text'}
+        .clear
+        %input#addTaskButton{type: 'button', value: 'Add Task'}
+
+      %section#taskList
+        %h2 Task List
+        %table
+          %th#dueDateList Due Date
+          %th#taskNameList Task Name
+          %th#colorList Color
+          %th#doneList Done?
+          %th#removeList Remove
+          %th#moveList Move Up/Down
+
+    %script{src: 'js/jquery-1.10.2.min.js'}
+    %script{src: 'js/underscore-min.js'}
+    %script{src: 'js/qunit-1.12.0.js'}
+    %script{src: 'js/main.js'}
+    %script{src: 'js/testing.js'}

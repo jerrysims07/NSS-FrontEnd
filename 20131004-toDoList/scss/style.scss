@@ -1,0 +1,166 @@
+@import url(http://fonts.googleapis.com/css?family=Walter+Turncoat);
+
+$borderColor :#aaaaaa;
+$checkedBoxFontColor: #aaaaaa;
+$checkedBoxBGColor: #cccccc;
+
+*
+{
+  font-family: 'Walter Turncoat', cursive;
+}
+
+// style the main title
+
+h1
+{
+  font-family: 'Walter Turncoat', cursive;
+  text-align:center;
+}
+
+
+
+// styling the data entry area
+
+.clear
+{
+  clear:both;
+}
+
+.addTaskLabels
+{
+  width:100px;
+  display:inline-block;
+  text-align:right;
+}
+
+#addNewTasks
+{
+  padding-right:30px;
+  border-right:2px solid $borderColor;
+  border-radius:15px;
+  float:left;
+}
+
+#taskList
+{
+  padding-left:30px;
+  border-left:2px solid $borderColor;
+  // border-right:2px solid $borderColor;
+  border-radius:15px;
+  height:400px;
+
+}
+
+h2
+{
+  font-family: 'Walter Turncoat', cursive;
+  text-align: center;
+}
+
+#wrap
+{
+  width:950px;
+  margin:auto;
+}
+
+
+// styling the task list area
+
+#taskList
+{
+  float:right;
+}
+
+th
+{
+  // border-bottom:1px solid $borderColor;
+  margin-bottom:5px;
+  padding-right:10px;
+  text-decoration:underline;
+  padding-bottom:10px;
+}
+
+.colorDivClass
+{
+  width:10px;
+  height:10px;
+}
+
+// .upImageClass
+// {
+//   src: '/images/up.png';
+// }
+
+
+// style the table data elements
+
+tr
+{
+  border-bottom:1px solid #aaaaaa;
+}
+
+tr:first-child
+{
+  border:none;
+}
+
+// style the due date field
+tr:first-child
+{
+  text-align: left;
+}
+
+// style the task name field
+#taskNameList
+{
+  width:261px;
+}
+
+#dueDateList
+{
+  width: 84px;
+}
+
+#colorList
+{
+  width: 56px;
+}
+
+#doneList
+{
+  width: 56px;
+}
+
+#removeList
+{
+  width:104px;
+  margin:auto;
+}
+
+#moveList
+{
+  width:121px;
+}
+
+// style the color category field
+.colorDivClass
+{
+  margin: auto;
+}
+
+// style the checkbox
+.checkboxes
+{
+  margin: auto;
+}
+.checkedBox
+{
+  color: $checkedBoxFontColor;
+  background-color: $checkedBoxBGColor;
+  text-decoration: line-through;
+}
+
+
+// style the delete button
+
+// style the up/down arrows
